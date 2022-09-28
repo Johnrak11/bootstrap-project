@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-2</title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        video {
+            min-height: 100%;
+            min-width: 100%;
+            position: fixed;
+            z-index: -1;
+            opacity: 1;
+        }
+        form{
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex flex-column bg-success" style="height: 100vh;">
+    <video loop autoplay muted>
+        <source src="../img/THOR 4_ Love and Thunder Trailer 2 German Deutsch (2022) (1).mp4" type="video/mp4">
+        your browser does not support the video tag
+    </video>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <!-- <img src="" alt=""> -->
+            <a class="navbar-brand fw-bold text-danger" href="#">MOVIE <span class="fw-bold text-success">HUB</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Type
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="#">Maval</a></li>
+                            <li><a class="dropdown-item " href="#">DC</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="#">another</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Log in</a></li>
+                            <li><a class="dropdown-item" href="">Sign up</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex " role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <form action="" class="p-4 row-sm rounded-4 bg-secondary bg-gradient m-auto">
+        <div class="text-dark">
+            <h4> SIGN UP FOR FREE</h4>
+        </div>
+        <div class="row mb-4">
+            <input type="text" class="col form-control m-1" autofocus placeholder=" First Name" maxlength="10">
+            <input type="text" class="col form-control m-1" autofocus placeholder=" Last Name" maxlength="10">
+        </div>
+        <div class="row mb-4">
+            <input type="email" class="col form-control m-1" autofocus placeholder="Email Address">
+            <input type="text" class="col form-control m-1" autofocus placeholder="Website Name">
+        </div>
+        <div class="row mb-4">
+            <input type="text" class="form-control" autofocus placeholder="Write your message">
+        </div>
+        <div class="row mb-4">
+            <button class="btn btn-info" type="submit">SUBMIT</button>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
